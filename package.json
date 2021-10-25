@@ -1,0 +1,29 @@
+{
+  "name": "webexcel",
+  "version": "1.0.0",
+  "description": "js app",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RinaXiaoli/webexcel.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "dj@",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RinaXiaoli/webexcel/issues"
+  },
+  "homepage": "https://github.com/RinaXiaoli/webexcel#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
