@@ -7,11 +7,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <link rel="shortcut icon" href="favicon.ico"> -->
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>WebExcel</title>
 </head>
 
 <body>
-  <div id="app" class="container"></div>
+  <div id="app" class="container">
+    <div class="excel">
+      <div class="excel-header">
+        <input type="text" value="Новая таблица" class="excel-header__input">
+        <div>
+          <button class="button">
+            <span class="material-icons">
+              logout
+            </span>
+          </button>
+          <button class="button">
+            <span class="material-icons">
+              delete
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
