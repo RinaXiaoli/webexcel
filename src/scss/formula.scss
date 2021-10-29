@@ -1,2 +1,29 @@
 @import 'variables';
 @import 'mixins';
+
+.excel-formula {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: $header-h + $toolbar-h;
+  height: $formula-h;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid $border-color;
+
+  &__info {
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    border-right: 1px solid $border-color;
+    min-width: $info-cell-w;
+  }
+  &__input {
+    font-size: 12px;
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+    outline: none;
+    color: #000;
+  }
+}
